@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Relógio com Alarme</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 class="relogio">00:00:00</h2>
+
+  <div class="container">
+    <h1>⏰ Alarme</h1>
+    <label>Hora:
+      <select id="hora"></select>
+    </label>
+
+    <label>Minuto:
+      <select id="Minutes"></select>
+    </label>
+
+    <button id="bSet">Ligar alarme</button>
+  </div>
+
+  <audio id="alarmeAudio" src="clock.mp3" loop></audio>
+
+  <script src="main.js"></script>
+</body>
+</html>
